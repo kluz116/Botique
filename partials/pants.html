@@ -1,0 +1,43 @@
+
+<ion-content>
+
+<div ng-repeat="pant in pants">
+	
+
+	
+
+<div class="list card">
+
+  <div class="item item-avatar">
+    <img ng-src="images/{{pant.botique_image}}" width="100px;" height="100px;" />
+    <h2>{{pant.botique_name}}</h2>
+    <p>November 05, 1955</p>
+  </div>
+
+  <div class="item item-body">
+   <img ng-src="images/{{pant.image}}"  width="310px;" />
+    {{pant.details}}
+    <p>
+      <a href="#" class="subdued">1 Like</a>
+      <a href="#" class="subdued">5 Comments</a>
+    </p>
+  </div>
+
+  <div class="item tabs tabs-secondary tabs-icon-left">
+    <a class="tab-item" href="#">
+      <i class="icon ion-thumbsup"></i>
+      Like
+    </a>
+    <a class="tab-item" href="#">
+      <i class="icon ion-chatbox"></i>
+      Comment
+    </a>
+    <a class="tab-item" href="#">
+      <i class="icon ion-share"></i>
+      Share
+    </a>
+  </div>
+
+</div>
+</div>
+</ion-content>

@@ -1,0 +1,40 @@
+
+<ion-content>
+
+<div ng-repeat="shoe in shoes">
+	
+
+	
+
+<div class="list card">
+
+  <div class="item item-avatar">
+    <img ng-src="images/{{shoe.botique_image}}" width="100px;" height="100px;" />
+    <h2>{{shoe.botique_name}}</h2>
+    <p>November 05, 1955</p>
+  </div>
+
+  <div class="item item-body">
+   <img ng-src="images/{{shoe.image}}"  width="310px;" />
+    {{shoe.details}}
+  
+  </div>
+
+  <div class="item tabs tabs-secondary tabs-icon-left">
+    <a class="tab-item" href="#">
+      <i class="icon ion-thumbsup"></i>
+      Like
+    </a>
+    <a class="tab-item" href="#">
+      <i class="icon ion-chatbox"></i>
+      Comment
+    </a>
+    <a class="tab-item" href="#">
+      <i class="icon ion-share"></i>
+      Share
+    </a>
+  </div>
+
+</div>
+</div>
+</ion-content>
