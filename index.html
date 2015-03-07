@@ -1,0 +1,45 @@
+
+<html ng-app="myapp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="ionic-v1.0.0-beta.12/css/ionic.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<script src="ionic-v1.0.0-beta.12/js/ionic.bundle.js" type="text/javascript"></script>
+<script src="ionic-v1.0.0-beta.12/js/angular/angular-animate.js" type="text/javascript"></script>
+<script src="app.js" type="text/javascript"></script>
+<title>Botique Application</title>
+</head>
+<body>
+	<div class="bar bar-header bar-energized"><h1 class="title">My Botique Application</h1>
+    <button class="button icon ion-refresh ng-click="refresh()"></button>
+    </div>
+    <div class="content"></div><br><br>
+  
+      
+    	 <div ui-view></div>
+
+
+   
+    	<div class="tabs tabs-icon-top ">
+              <a class="tab-item" ui-sref="dresses">
+                <i class="icon ion-home"></i>
+                Dresses
+                
+              </a>
+              <a class="tab-item" ui-sref="pants">
+                <i class="icon ion-star"></i>
+                Pants
+              </a>
+              <a class="tab-item" ui-sref="tops">
+                <i class="icon ion-home"></i>
+                Tops
+                
+              </a>
+              <a class="tab-item" ui-sref="shoes">
+                <i class="icon ion-star"></i>
+                Shoes
+              </a>
+        </div>  
+        
+</body>
+</html>
