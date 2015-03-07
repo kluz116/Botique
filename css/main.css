@@ -1,0 +1,12 @@
+.bar-energized{
+	box-shadow: 0px 3px 3px grey;
+}
+.item item-avatar{
+	border-top-left-radius: 15px important;
+	border-top-right-radius: 15px important;
+	background-color: #800080;
+}
+.tabs{
+	background-color: #000;
+	box-shadow: 0px 3px 3px grey;
+}
